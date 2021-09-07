@@ -1,0 +1,6 @@
+{
+    "base_url": "https://jsonplaceholder.typicode.com",
+    "headers": {
+        "Content-type": "application/json; charset=UTF-8"
+    }
+}

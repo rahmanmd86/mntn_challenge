@@ -1,0 +1,2 @@
+POSTS = "/posts"
+COMMENTS = "/comments"
