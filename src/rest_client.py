@@ -5,7 +5,7 @@ from src.validators import Validators
 logging.basicConfig(filename='test_result.log', encoding='utf-8')
 logger = logging.getLogger(__name__)
 
-class RestClient(Validators):
+class RestClient():
     def __init__(self, config) -> None:
         self.url = config['base_url']
         self.headers = config['headers']

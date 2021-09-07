@@ -14,7 +14,6 @@ def test_put_posts(client):
     response = client.sends().put_request(f'{apis.POSTS}/5', body)
     
     body['id'] = 5
-
     check.equal(response.status_code, HTTPStatus.OK)
     check.equal(response.json(), body);
 
